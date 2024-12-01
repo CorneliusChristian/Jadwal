@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jadwal Asesmen Akhir Semester - RDKNT.1</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.30.1/moment.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.30.1/locale/id.min.js"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap');
+        *{
+            font-family: "Sora";
+        }
+        html, body{
+            height: 100%;
+        }
+        #timer{
+            font-size: 12rem;
+        }
+    </style>
+</head>
+<body class="bg-green-500 flex flex-col">
+    <div class="flex place-content-around mt-32 items-center h-full"> 
+        <h1 class="text-black/50 font-bold" id="timer">10:09:00</h1>
+    </div>
+    <div class="flex flex-col place-content-center items-center bg-black/50">
+        <div class="display-block bg-black/90 self-start" id="prog" style="height: 2rem; width: 50%;"></div>
+    </div>
+    <h3 class="font-semibold mt-none mb-24 mt-4 w-full text-center text-3xl">Asesmen B. Inggris akan berakhir </h3>
+    <script src="script.js"></script>
+</body>
+</html>
