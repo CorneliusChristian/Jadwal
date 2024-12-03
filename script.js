@@ -38,6 +38,15 @@ function checkAgenda(){
             "name": "Bahasa Indonesia",
             "start":moment("3/12/2024 20:30", "DD/MM/YYYY hh:mm"),
             "end":moment("3/12/2024 21:11", "DD/MM/YYYY hh:mm")
+        }],
+        "day7":[{
+            "name": "B. Asing",
+            "start":moment("4/12/2024 07:15", "DD/MM/YYYY hh:mm"),
+            "end":moment("4/12/2024 08:15", "DD/MM/YYYY hh:mm")
+        }, {
+            "name": "Informatika",
+            "start":moment("4/12/2024 09:00", "DD/MM/YYYY hh:mm"),
+            "end":moment("4/12/2024 10:00", "DD/MM/YYYY hh:mm")
         }]
     }
     var available = ["", 69]
